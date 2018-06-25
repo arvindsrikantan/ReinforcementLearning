@@ -1,0 +1,5 @@
+
+"""
+Authors: Arvind Srikantan (asrikan1), Ashwin NareshKumar (anareshk)
+"""
+Run a2c.py/ imitation.py/ reinforce.py as required (Use -h for help with the available tunable parameters)
