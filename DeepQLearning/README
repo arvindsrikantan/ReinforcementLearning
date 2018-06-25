@@ -1,0 +1,15 @@
+
+"""
+Authors: Arvind Srikantan (asrikan1), Ashwin NareshKumar (anareshk)
+"""
+
+Run with these parameters:
+    --env: Environment name ["MountainCar-v0", "CartPole-v0", "SpaceInvaders-v0"]
+    --render: (default=0) whether to render while training/testing. Default is not to train
+    --train: (default=1) whether to train or to test. Default is to train
+    --model: file name to save the model to, or load the model from
+    --network: name of network to be trained. {"lqn": "Linear Q Network", "dqn": "Deep Q Network", "dueling_dqn": "Dueling Deep Q network"}
+    --replay: (default=1) Whether to use replay memory or not. Default uses replay memory.
+    --ddqn: (default=0) Whether to use double learning (by using a target network). Default is not to use double learning.
+
+Example: python DQN_Implementation.py --env MountainCar-v0 --render 1 --model Lqn.pickle --network lqn
